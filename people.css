@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 1px solid #333;
+}
+
+.logo h1 {
+    margin: 0;
+    color: white;
+}
+
+.roop {
+    color: red;
+}
+
+.tech {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav a:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 20px #00eeff;
+    border: 500px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+  }
+
+nav ul li a.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.people-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 200px;
+    gap: 20px;
+}
+
+.person {
+    text-align: center;
+}
+
+.person img {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.person h3{
+    margin: 10px 0 5px;
+    color: rgb(255, 255, 255);
+}
+
+.person .title {
+    margin: 0;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
