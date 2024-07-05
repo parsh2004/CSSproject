@@ -99,6 +99,11 @@ nav ul li a.active {
     object-fit: cover;
 }
 
+.person:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgb(157, 0, 255);
+}
+
 .person h3{
     margin: 10px 0 5px;
     color: rgb(255, 255, 255);
@@ -117,4 +122,4 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+  }
